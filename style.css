@@ -68,7 +68,7 @@ body{
 }
 
 .coin .coin-price .price{
-    color: greenyellow;
+    color: lightslategrey;
     font-size: 1.9rem;
     font-weight: bold;
     margin-top: -6px;
@@ -81,5 +81,21 @@ body{
     margin-top: -30px;
 }
 
+.coin.rising{
+    background: linear-gradient(90deg, #202022, #4eb64510);
+}
+
+.coin.coin.rising .coin-price .price{
+    color: green;
+}
+
+
+.coin.falling{
+    background: linear-gradient(90deg, #202022, #b6454510);
+}
+
+.coin.falling .coin-price .price{
+    color: red;
+}
 
 
