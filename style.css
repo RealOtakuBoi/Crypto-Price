@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 html{
@@ -23,3 +26,60 @@ body{
     border-radius: 0.7rem;
     background: #343a40;
 }
+
+.coin .coin-image{
+    width: 10rem;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.coin .coin-image img{
+    width: 70%;
+    height: 70%;
+}
+
+.coin .coin-name{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.coin .coin-name h3{
+    color: aliceblue;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+}
+
+.coin .coin-name span{
+    color: aliceblue;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 6px 0 0 2px;
+}
+
+.coin .coin-price{
+    display: grid;
+    align-items: center;
+    margin-left: auto;
+    text-align: right;
+    padding: 8px 22px 0 0;
+}
+
+.coin .coin-price .price{
+    color: greenyellow;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: -6px;
+}
+
+.coin .coin-price .change{
+    color: #aaa;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+
+
