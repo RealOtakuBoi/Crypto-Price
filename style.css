@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #212529;
+}
+
+.coin{
+    display: flex;
+    width: 45rem;
+    height: 10rem;
+    border-radius: 0.7rem;
+    background: #343a40;
+}
